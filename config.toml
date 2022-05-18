@@ -2,3 +2,5 @@ baseURL = 'https://trotsky.su/'
 languageCode = 'en-us'
 title = 'Место'
 theme = 'tale'
+[Author]
+  name = "Маяк Александрийский"
