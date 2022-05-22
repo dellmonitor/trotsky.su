@@ -5,7 +5,7 @@ other = "Автор:"
 other = "опубликовано:"
 
 [generator]
-other = "<a href='https://gohugo.io'>Хьюго</a>, <a href='https://github.com/EmielH/tale-hugo/'>Тейл</a>, <a href='https://netlify.com/'>Нетлифай</a>."
+other = "<u><a href='https://gohugo.io'>Хьюго</a></u>, <u><a href='https://github.com/EmielH/tale-hugo/'>Тейл</a></u>, <u><a href='https://netlify.com/'>Нетлифай</a></u>."
 
 [publishdate]
 other = "{{ .PublishDate.Day }}.{{ index $.Site.Data.months_ru (printf \"%d\" .PublishDate.Month) }}.{{ .PublishDate.Year }}"
