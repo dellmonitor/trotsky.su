@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ .Scratch.Set "pagenumber" .Paginator.PageNumber }}
 {{ partial "math.html" . }}
 
 <main>
