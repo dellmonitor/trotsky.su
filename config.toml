@@ -3,5 +3,7 @@ languageCode = 'ru'
 defaultContentLanguage = "ru"
 title = 'Место'
 theme = 'tale'
+disableFastRender=true
 [Author]
   name = "Маяк Александрийский"
+
