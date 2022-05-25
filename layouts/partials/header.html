@@ -1,6 +1,6 @@
 		<nav class="nav">
 			<div class="nav-container">
-				{{- if not .IsHome }}
+				{{- if or (.IsPage) (.Scratch.Get "pagenumber")}}
 					<a href="{{ "/" | relURL }}">
 				{{ end }}
 					{{ if .IsPage }}
