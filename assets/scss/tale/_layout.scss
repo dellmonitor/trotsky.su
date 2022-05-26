@@ -81,6 +81,7 @@ footer,
 
   a {
     color: var(--default-color);
+    text-decoration: underline;
     font-family: $sans-serif;
   }
 }
@@ -103,7 +104,15 @@ footer {
   font-family: $serif-primary;
   padding: 2rem 0;
   text-align: center;
-
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #AAAA
+  }
+  a:visited{
+    color: #8E44AD;
+  }
   span {
     color: var(--default-color);
     font-size: .8rem;
