@@ -21,11 +21,6 @@
 		{{ range .Site.Params.css -}}
 			<link rel="stylesheet" href="{{ . | relURL }}">
 		{{ end -}}
-		<style>
-				a {
-					text-description: underline !important;
-				}
-		</style>
 
 		<!-- Favicon -->
 		<link rel="icon" href="{{ "favicon.ico" | relURL }}"/>
