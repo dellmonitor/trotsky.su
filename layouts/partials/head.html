@@ -17,10 +17,15 @@
 		{{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
 		{{- $style			:= resources.Get "scss/tale.scss" | toCSS $cssOptions }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-		<link rel="stylesheet" href="{{ "/css/fonts1.css" }}">
+		<link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
 		{{ range .Site.Params.css -}}
 			<link rel="stylesheet" href="{{ . | relURL }}">
 		{{ end -}}
+		<style>
+				a {
+					text-description: underline !important;
+				}
+		</style>
 
 		<!-- Favicon -->
 		<link rel="icon" href="{{ "favicon.ico" | relURL }}"/>
