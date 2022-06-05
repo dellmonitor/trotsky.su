@@ -20,3 +20,11 @@
     font-weight: 400;
     src: url('../fonts/PT-Astra-Serif/PT-Astra-Serif_Italic.ttf') format('truetype');
 }
+
+/* Neue Machina Regular*/
+@font-face {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Neue-Machina/PPNeueMachina-InktrapRegular.otf') format('opentype');
+}
