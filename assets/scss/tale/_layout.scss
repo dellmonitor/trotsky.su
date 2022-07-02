@@ -43,6 +43,13 @@ footer,
   }
 
   &-title {
+    color: var(--default-color);
+    display: inline-block;
+    margin: 0;
+    padding-right: .2rem;
+  }
+
+  &-title-hover {
     @include transition($color-transition, opacity .2s ease-out);
     color: var(--default-color);
     display: inline-block;
@@ -53,7 +60,7 @@ footer,
     &:focus {
       opacity: .6;
     }
-  }
+  } 
 
   ul {
     list-style-type: none;

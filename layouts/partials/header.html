@@ -4,9 +4,13 @@
 					<a href="{{ "/" | relURL }}">
 				{{ end }}
 					{{ if .IsPage }}
-						<h2 class="nav-title">{{ .Site.Title }}</h2>
+						<h2 class="nav-title-hover">{{ .Site.Title }}</h2>
 					{{ else }}
-						<h1 class="nav-title">{{ .Site.Title }}</h1>
+						{{- if (.Scratch.Get "pagenumber")}}
+							<h1 class="nav-title-hover">{{ .Site.Title }}</h1>
+						{{ else }}
+							<h1 class="nav-title">{{ .Site.Title }}</h1>
+						{{ end }}
 					{{ end }}
 				</a>
 				{{ partial "header-menu.html" . }}
