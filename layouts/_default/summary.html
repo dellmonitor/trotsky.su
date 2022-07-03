@@ -1,6 +1,7 @@
 <a href="{{ .Permalink }}" class="catalogue-item">
-    <div class="catalogue-info">
-        <time datetime="{{ .PublishDate }}">{{ i18n "publishdate" . }}</time> <span> | {{ .Params.Author }}</span>
+    <div>
+        <div class="catalogue-info">
+		<time datetime="{{ .PublishDate }}">{{ i18n "publishdate" . }}</time> <span> | {{ .Params.Author }}</span></div>
         <h2 class="catalogue-title">{{ .Title }}</h2>
         <div class="catalogue-line"></div>
 
