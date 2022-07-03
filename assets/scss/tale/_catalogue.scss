@@ -15,13 +15,13 @@
     }
   }
 
-  &-time {
+  &-info {
     color: var(--default-tint);
     font-family: $serif-primary;
     letter-spacing: .5px;
   }
 
-  &-title {
+ &-title {
     color: var(--default-shade);
     display: block;
     font-family: $sans-serif;
