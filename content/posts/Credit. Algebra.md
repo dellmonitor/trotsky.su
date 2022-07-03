@@ -4,6 +4,7 @@ date: 2022-05-14T19:01:00+03:00
 math: true
 author: "Маяк Александрийский"
 summary: "Вопросы, определения и все такое."
+url: "/posts/credit-algebra"
 draft: false
 ---
 ## Схема Горнера

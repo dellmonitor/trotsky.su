@@ -4,6 +4,7 @@ date: 2022-05-20T03:49:55+03:00
 author: "Маяк Александрийский"
 math: true
 summary: "Вопросы, определения и все такое."
+url: "/posts/credit-geometry"
 draft: false
 ---
 
