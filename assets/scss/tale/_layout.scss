@@ -1,17 +1,9 @@
-* {
-    @include transition($color-transition);
-}
-
 .container {
   margin: 0 auto;
   max-width: 800px;
   width: 80%;
 }
 
-// Carve out an exception from the 80% narrowing of the viewport for the table
-// of contents. This is ugly, but there isn't a better way, since the table of
-// contents must be a child of the "main" element so that it its scrolling
-// behavior is intuitive.
 main > *,
 footer,
 .nav-container {
@@ -21,19 +13,8 @@ footer,
   width: 80%;
 }
 
-#darkModeToggle {
-    float: right;
-    position: sticky;
-    top: 2rem;
-    margin-right: 2rem;
-    margin-top: 2rem;
-    font-size: 2rem;
-
-    cursor: pointer;
-}
-
 .nav {
-  box-shadow: 0 2px 2px -2px var(--shadow-color);
+  box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
 
   &-container {
@@ -43,14 +24,7 @@ footer,
   }
 
   &-title {
-    color: var(--default-color);
-    display: inline-block;
-    margin: 0;
-    padding-right: .2rem;
-  }
-
-  &-title-hover {
-    @include transition($color-transition, opacity .2s ease-out);
+    @include transition(all .2s ease-out);
     color: var(--default-color);
     display: inline-block;
     margin: 0;
@@ -70,8 +44,8 @@ footer,
   }
 
   li {
-    @include transition($color-transition, opacity .2s ease-out);
-    color: var(--default-color);
+    @include transition(all .2s ease-out);
+    color: $default-color;
     display: inline-block;
     opacity: .6;
     padding: 0 2rem 0 0;
@@ -87,7 +61,7 @@ footer,
   }
 
   a {
-    color: var(--default-color);
+    color: $default-color;
     text-decoration: underline;
     font-family: $sans-serif;
   }
@@ -121,7 +95,7 @@ footer {
     color: #8E44AD;
   }
   span {
-    color: var(--default-color);
+    color: $default-color;
     font-size: .8rem;
   }
 }
