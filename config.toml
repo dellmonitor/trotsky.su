@@ -6,4 +6,7 @@ theme = 'tale'
 disableFastRender=true
 [Author]
   name = "Маяк Александрийский"
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
