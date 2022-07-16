@@ -34,8 +34,8 @@
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/PT-Serif/PT-Serif_Regular.woff) format('woff');
-    src: url('../fonts/PT-Serif/PT-Serif_Regular.woff2) format('woff2');
+    src: url('../fonts/PT-Serif/PT-Serif_Regular.woff') format('woff');
+    src: url('../fonts/PT-Serif/PT-Serif_Regular.woff2') format('woff2');
 }
 
 /*PT Serif Bold*/
@@ -43,8 +43,8 @@
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/PT-Serif/PT-Serif_Bold.woff) format('woff');
-    src: url('../fonts/PT-Serif/PT-Serif_Bold.woff2) format('woff2');
+    src: url('../fonts/PT-Serif/PT-Serif_Bold.woff') format('woff');
+    src: url('../fonts/PT-Serif/PT-Serif_Bold.woff2') format('woff2');
 }
 
 /*PT Serif Italic*/
@@ -52,8 +52,8 @@
     font-family: 'PT Serif';
     font-style: italic;
     font-weight: 400;
-    src: url('../fonts/PT-Serif/PT-Serif_Italic.woff) format('woff');
-    src: url('../fonts/PT-Serif/PT-Serif_Italic.woff2) format('woff2');
+    src: url('../fonts/PT-Serif/PT-Serif_Italic.woff') format('woff');
+    src: url('../fonts/PT-Serif/PT-Serif_Italic.woff2') format('woff2');
 }
 
 /*PT Serif Bold Italic*/
@@ -61,6 +61,6 @@
     font-family: 'PT Serif';
     font-style: italic;
     font-weight: 700;
-    src: url('../fonts/PT-Serif/PT-Serif_Bold-Italic.woff) format('woff');
-    src: url('../fonts/PT-Serif/PT-Serif_Bold-Italic.woff2) format('woff2');
+    src: url('../fonts/PT-Serif/PT-Serif_Bold-Italic.woff') format('woff');
+    src: url('../fonts/PT-Serif/PT-Serif_Bold-Italic.woff2') format('woff2');
 }
