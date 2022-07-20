@@ -26,6 +26,7 @@
     @include transition($color-transition, opacity .3s ease-out);
     color: var(--default-color);
     position: absolute;
+    text-decoration: none;
 
     &:hover,
     &:focus {
