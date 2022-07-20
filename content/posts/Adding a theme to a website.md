@@ -18,3 +18,4 @@ echo "theme = 'tale'" >> config.toml
 ![Тейл](/new-site.png "Результат")
 
 Название сайта можно поменять в&nbsp;конфиге.
+<!--more-->

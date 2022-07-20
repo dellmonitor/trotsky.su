@@ -46,3 +46,4 @@ echo 'export PATH=$PATH:~/hugo' >> ~/.bashrc
 ```console
 brew install hugo 
 ```
+<!--more-->

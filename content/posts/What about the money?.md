@@ -9,3 +9,4 @@ draft: false
 &mdash;&nbsp;У&nbsp;него над столом написано: &laquo;Как с&nbsp;деньгами?&raquo;
 
 *В.&nbsp;О.&nbsp;Пелевин. Generation &laquo;П&raquo;*
+<!--more-->
