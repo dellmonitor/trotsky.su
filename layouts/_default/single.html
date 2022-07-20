@@ -1,7 +1,4 @@
 {{ define "main" }}
-{{ if or .Params.math .Site.Params.math }}
-  {{ partial "math.html" . }}
-{{ end }}
 <main>
 	{{ partial "toc.html" . }}
 

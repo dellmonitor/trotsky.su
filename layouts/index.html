@@ -1,7 +1,5 @@
 {{ define "main" }}
 {{ .Scratch.Set "pagenumber" .Paginator.PageNumber }}
-{{ partial "math.html" . }}
-
 <main>
 	{{ partial "index/introduction.html" . }}
 
@@ -10,7 +8,6 @@
 			{{ .Render "summary" }}
 		{{ end }}
 	</div>
-
 	<div class="pagination">
 		{{ if .Paginator.HasPrev }}
 			<a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592;</a>
