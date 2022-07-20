@@ -1,0 +1,14 @@
+<ul>
+    {{ $currentPage := . }}
+    {{- if eq (.Permalink | relURL) "/archieves.html"}}
+	<li class="nav-menu">
+    {{else}}
+	<li class="nav-menu-hover">
+    {{ end }}		
+            	{{- if not (eq (.Permalink | relURL) "/archieves.html")  }}
+		<a href="/archieves.html">
+		{{ end }}
+                <span>Картотека</span>
+            </a>
+        </li>
+</ul>
