@@ -3,7 +3,6 @@ title: "Зачет. Алгебра"
 date: 2022-05-14T19:01:00+03:00
 math: true
 author: "Маяк Александрийский"
-summary: "Вопросы, определения и все такое."
 url: "/posts/credit-algebra"
 draft: false
 ---
@@ -46,15 +45,15 @@ $$
 
 Свойства логарифмов:
 
-$$\log_{a}b + \log_{a}c = \log_{a}(b \cdot c)$$
-
-$$\log_{a}b-\log_{a}c=\log_{a}(\dfrac b c)$$
-
-$$\log_{a}b^\mu=\mu \cdot \log_{a}b$$
-
-$$\log_{a^ \kappa}b=\dfrac 1 k \cdot \log_{a}b$$
-
-$$\log_{a}b=\dfrac {\log_{n}b} {\log_{n}a}.$$
+$$
+\begin{align}
+&\log_{a}b + \log_{a}c = \log_{a}(b \cdot c)\\\
+&\log_{a}b-\log_{a}c=\log_{a}(\dfrac b c)\\\
+&\log_{a}b^\mu=\mu \cdot \log_{a}b\\\
+&\log_{a^ \kappa}b=\dfrac 1 k \cdot \log_{a}b\\\
+&\log_{a}b=\dfrac {\log_{n}b} {\log_{n}a}.\\\
+\end{align}
+$$
 
 <br>
 
@@ -158,13 +157,22 @@ f(x) \wedge g(x)\\
 Число, равное отношению \\(\sin(\alpha)\\) к \\(\cos(\alpha)\\), называют тангенсом угла \\(\alpha\\) и обозначают \\(\tg(\alpha)\\), т.&nbsp;е.
 $$\tg(\alpha)=\dfrac {\sin(\alpha)} {\cos(\alpha)}.$$
 Число, равное отношению \\(\cos(\alpha)\\) к \\(\sin(\alpha)\\), называют котангенсом угла \\(\alpha\\) и обозначают \\(\ctg(\alpha)\\), т.&nbsp;е.
-$$\ctg(\alpha)=\dfrac {\cos(\alpha)} {\sin(\alpha)}.$$
+$$
+\begin{align*}
+\ctg(\alpha)=\dfrac {\cos(\alpha)} {\sin(\alpha)}.\\\
+\end{aling*}
+$$
 
 Для любого угла \\(\alpha\\) справедливы равенства
-$$\cos(-\alpha)=\cos(\alpha)$$
-$$\sin(-\alpha)=-sin(\alpha)$$
-$$\tg(-\alpha)=-\tg(\alpha)$$
-$$\ctg(-\alpha)=-\ctg(\alpha).$$
+
+$$
+\begin{align*}
+&\cos(-\alpha)=\cos(\alpha)\\\
+&\sin(-\alpha)=-sin(\alpha)\\\
+&\tg(-\alpha)=-\tg(\alpha)\\\
+&\ctg(-\alpha)=-\ctg(\alpha).\\\
+\end{align*}
+$$
 
 <br>
 
@@ -173,18 +181,26 @@ $$\ctg(-\alpha)=-\ctg(\alpha).$$
 $$\sin^2 \alpha + \cos^2 \alpha = 1$$
 
 Сумма и&nbsp;разность синусов и&nbsp;косинусов:
-$$\sin(\alpha)+\sin(\beta)=2\sin(\dfrac {\alpha+\beta} 2)\cos(\dfrac {\alpha-\beta} 2)$$
-$$\sin(\alpha)-\sin(\beta)=2\sin(\dfrac {\alpha-\beta} 2)\cos(\dfrac {\alpha+\beta} 2)$$
-$$\cos(\alpha)+\cos(\beta)=2\cos(\dfrac {\alpha+\beta} 2)\cos(\dfrac {\alpha-\beta} 2)$$
-$$\cos(\alpha)-\cos(\beta)=-2\sin(\dfrac {\alpha+\beta} 2)\sin(\dfrac {\alpha-\beta} 2)$$
+$$
+\begin{align*}
+&\sin(\alpha)+\sin(\beta)=2\sin(\dfrac {\alpha+\beta} 2)\cos(\dfrac {\alpha-\beta} 2)\\\
+&\sin(\alpha)-\sin(\beta)=2\sin(\dfrac {\alpha-\beta} 2)\cos(\dfrac {\alpha+\beta} 2)\\\
+&\cos(\alpha)+\cos(\beta)=2\cos(\dfrac {\alpha+\beta} 2)\cos(\dfrac {\alpha-\beta} 2)\\\
+&\cos(\alpha)-\cos(\beta)=-2\sin(\dfrac {\alpha+\beta} 2)\sin(\dfrac {\alpha-\beta} 2)\\\
+\end{align*}
+$$
 
 <br>
 
 ## Формулы двойных углов
-$$\sin(2\alpha)=2\sin(\alpha)\cos(\alpha)$$
-$$\cos(2\alpha)=\cos^2(\alpha)-\sin^2(\alpha)$$
-$$\tg(2\alpha)=\dfrac {2\tg(\alpha)} {1-\tg^2(\alpha)}$$
-$$\ctg(2\alpha)=\dfrac {ctg^2(\alpha)-1} {2\ctg(\alpha)}$$
+$$
+\begin{align*}
+&\sin(2\alpha)=2\sin(\alpha)\cos(\alpha)\\\
+&\cos(2\alpha)=\cos^2(\alpha)-\sin^2(\alpha)\\\
+&\tg(2\alpha)=\dfrac {2\tg(\alpha)} {1-\tg^2(\alpha)}\\\
+&\ctg(2\alpha)=\dfrac {ctg^2(\alpha)-1} {2\ctg(\alpha)}\\\
+\end{align*}
+$$
 
 <br>
 
@@ -199,27 +215,52 @@ $$\ctg(2\alpha)=\dfrac {ctg^2(\alpha)-1} {2\ctg(\alpha)}$$
 
 ## Простейшие тригонометрические уравнения
 Синус:
-$$\sin(x)=a, |a| < 1, a \neq 1$$
-$$x_1=\arcsin(a)+2 \pi n, n \in \Z$$
-$$x_2=\pi-\arcsin(a)+2 \pi n, n \in \Z$$
+$$
+\begin{align*}
+&\sin(x)=a, |a| < 1, a \neq 1\\\
+&x_1=\arcsin(a)+2 \pi n, n \in \Z\\\
+&x_2=\pi-\arcsin(a)+2 \pi n, n \in \Z
+\end{align*}
+$$
 Частные случаи:
-$$\sin(x)=1, x=\dfrac \pi 2 + 2\pi n, n \in \Z$$
-$$\sin(x)=-1, x=-\dfrac \pi 2 + 2\pi n, n \in \Z$$
-$$\sin(x)=0, \pi n, n \in \Z.$$
+$$
+\begin{align*}
+&\sin(x)=1, x=\dfrac \pi 2 + 2\pi n, n \in \Z\\\
+&\sin(x)=-1, x=-\dfrac \pi 2 + 2\pi n, n \in \Z\\\
+&\sin(x)=0, \pi n, n \in \Z.
+\end{align*}
+$$
 
 Косинус:
-$$\cos(x)=a, |a| < 1, a \neq 1$$
-$$x_1=\arccos(a)+2 \pi n, n \in \Z$$
-$$x_2=-\arccos(a)+2 \pi n, n \in \Z$$
+$$
+\begin{align*}
+&\cos(x)=a, |a| < 1, a \neq 1\\\
+&x_1=\arccos(a)+2 \pi n, n \in \Z\\\
+&x_2=-\arccos(a)+2 \pi n, n \in \Z\\\
+\end{align*}
+$$
 Частные случаи:
-$$\cos(x)=1, x=2\pi n, n \in \Z$$
-$$\cos(x)=-1, x=\pi+2\pi n, n \in \Z$$
-$$\cos(x)=0, \dfrac \pi 2 + \pi n, n \in \Z.$$
+$$
+\begin{align*}
+&\cos(x)=1, x=2\pi n, n \in \Z\\\
+&\cos(x)=-1, x=\pi+2\pi n, n \in \Z\\\
+&\cos(x)=0, \dfrac \pi 2 + \pi n, n \in \Z.
+\end{align*}
+$$
 
 Тангенс:
-$$\tg(x)=a, a \in \R$$
-$$x=\arctg(a)+\pi n, n \in \Z$$
+$$
+\begin{align*}
+&\tg(x)=a, a \in \R\\\
+&x=\arctg(a)+\pi n, n \in \Z
+\end{align*}
+$$
 
 Котангенс:
-$$\ctg(x)=a, a \in \R$$
-$$x=\arcctg(a)+\pi n, n \in \Z$$
+$$
+\begin{align*}
+&\ctg(x)=a, a \in \R\\\
+&x=\arcctg(a)+\pi n, n \in \Z\\\
+\end{align*}
+$$
+<!--more-->

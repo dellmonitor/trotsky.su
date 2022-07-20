@@ -3,7 +3,6 @@ title: "Зачет. Геометрия"
 date: 2022-05-20T03:49:55+03:00
 author: "Маяк Александрийский"
 math: true
-summary: "Вопросы, определения и все такое."
 url: "/posts/credit-geometry"
 draft: false
 ---
@@ -156,3 +155,4 @@ draft: false
 \\(\overrightarrow{a} \cdot \overrightarrow{b}=|\overrightarrow{a}||\overrightarrow{b}|\cos(\phi)\\)
 
 \\(\overrightarrow{a} \cdot \overrightarrow{b}=x_{a}x_b+y_{a}y_b+z_{a}z_b\\)
+<!--more-->
