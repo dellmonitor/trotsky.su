@@ -35,11 +35,12 @@ footer,
 .nav {
   box-shadow: 0 2px 2px -2px var(--shadow-color);
   overflow: auto;
-
+  font-family: $sans-serif;
+  
   &-container {
     margin: 1rem auto;
     position: relative;
-    text-align: center;
+    text-align: left;
   }
 
   &-title {
@@ -55,6 +56,7 @@ footer,
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
+    text-decoration: underline;
 
     &:hover,
     &:focus {
@@ -67,9 +69,21 @@ footer,
     margin: 1rem 0 0;
     padding: 0;
     text-align: center;
+    bottom: 0;
+    position: absolute;
+    right: 0;
   }
 
-  li {
+  &-menu {
+    color: var(--default-color);
+    display: inline-block;
+
+    &:last-child {
+      padding-right: 0;
+    }
+   }
+
+  &-menu-hover {
     @include transition($color-transition, opacity .2s ease-out);
     color: var(--default-color);
     display: inline-block;
@@ -88,8 +102,6 @@ footer,
 
   a {
     color: var(--default-color);
-    text-decoration: underline;
-    font-family: $sans-serif;
   }
 }
 
@@ -111,15 +123,7 @@ footer {
   font-family: $serif-primary;
   padding: 2rem 0;
   text-align: center;
-  a {
-    text-decoration: underline;
-  }
-  a:hover {
-    color: #AAAA
-  }
-  a:visited{
-    color: #8E44AD;
-  }
+  
   span {
     color: var(--default-color);
     font-size: .8rem;
