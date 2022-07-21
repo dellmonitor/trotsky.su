@@ -28,6 +28,10 @@
     font-size: 2rem;
     font-weight: 700;
     margin: .5rem 0;
+
+    &:hover {
+	color: #aaa
+    }
   }
 
   &-line {
