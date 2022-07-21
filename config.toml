@@ -10,3 +10,6 @@ disableFastRender=true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+[Params]
+css  = ["katex.css"]
+

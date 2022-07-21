@@ -4,18 +4,19 @@
 	<div class="post">
 		<div class="post-archive">
 			{{ range (where (where .Site.Pages "IsPage" "=" true) "Params.hidden" "!=" true ).GroupByDate "2006" }}
-			<h2>{{ .Key }}</h2>
-			<ul class="listing">
+			<div style="padding-bottom: 2rem">
+			<h2>{{ .Key }}</h2>	
+			<ul style="padding: 0">
 				{{ range .Pages }}
-				<ul>
-					<span class="date">{{ .Date.Format "02.01" }}</span>
+				<p> 
+					{{ .Date.Format "02.01" }}
 					<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-					<span class="date">{{ .Params.Author }}</span>
-				</ul>
+					{{ .Params.Author }}
+				</p>
 				{{ end }}
 			</ul>
+			</div>
 			{{ end }}
-
 		</div>
 
 		{{ partial "single/footer.html" . }}
