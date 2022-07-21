@@ -157,18 +157,14 @@ f(x) \wedge g(x)\\
 Число, равное отношению \\(\sin(\alpha)\\) к \\(\cos(\alpha)\\), называют тангенсом угла \\(\alpha\\) и обозначают \\(\tg(\alpha)\\), т.&nbsp;е.
 $$\tg(\alpha)=\dfrac {\sin(\alpha)} {\cos(\alpha)}.$$
 Число, равное отношению \\(\cos(\alpha)\\) к \\(\sin(\alpha)\\), называют котангенсом угла \\(\alpha\\) и обозначают \\(\ctg(\alpha)\\), т.&nbsp;е.
-$$
-\begin{align*}
-\ctg(\alpha)=\dfrac {\cos(\alpha)} {\sin(\alpha)}.\\\
-\end{aling*}
-$$
+$$\ctg(\alpha)=\dfrac {\cos(\alpha)} {\sin(\alpha)}.$$
 
 Для любого угла \\(\alpha\\) справедливы равенства
 
 $$
 \begin{align*}
 &\cos(-\alpha)=\cos(\alpha)\\\
-&\sin(-\alpha)=-sin(\alpha)\\\
+&\sin(-\alpha)=-\sin(\alpha)\\\
 &\tg(-\alpha)=-\tg(\alpha)\\\
 &\ctg(-\alpha)=-\ctg(\alpha).\\\
 \end{align*}
