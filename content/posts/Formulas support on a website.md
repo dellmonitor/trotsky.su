@@ -19,7 +19,7 @@ draft: false
         onload="renderMathInElement(document.body);"></script>
 ```
 
-В&nbsp;шаблоне поста (```/layouts/_default/single.html```) укажем, нужно&nbsp;ли добавлять Катек (завист от&nbsp;параметра ```math```, указываемого нами&nbsp;посте):
+В&nbsp;шаблоне поста (```/layouts/_default/single.html```) укажем, нужно&nbsp;ли добавлять Катек (зависит от&nbsp;параметра ```math```, указываемого нами&nbsp;посте):
 ```html
 {{ if or .Params.math .Site.Params.math }}
   {{ partial "math.html" . }}
