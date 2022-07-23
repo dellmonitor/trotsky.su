@@ -1,7 +1,7 @@
     <div class="catalogue-item">
         <div class="catalogue-info">
 		<time datetime="{{ .PublishDate }}">{{ i18n "publishdate" . }}</time> <span> | {{ .Params.Author }}</span></div>
-        <a href="{{ .Permalink }}"><h2 class="catalogue-title">{{ .Title }}</h2></a>
+        <a href="{{ .Permalink }}"><h2 class="catalogue-title">{{ .Title | safeHTML }}</h2></a>
 
         <p>
             {{ if isset .Params "summary" }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary | markdownify}}{{ end }}
