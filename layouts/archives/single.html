@@ -10,7 +10,7 @@
 				{{ range .Pages }}
 				<p> 
 					{{ .Date.Format "02.01" }}
-					<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+					<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title | markdownify }}</a>
 					{{ .Params.Author }}
 				</p>
 				{{ end }}
