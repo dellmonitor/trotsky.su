@@ -5,3 +5,7 @@ theme = 'tale'
 [Params]
   [Params.Author]
     name = 'Маяк Александрийский'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
