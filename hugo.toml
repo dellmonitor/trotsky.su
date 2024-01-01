@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://trotsky.su/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Место'
 theme = 'tale'
 [Params]
   [Params.Author]
