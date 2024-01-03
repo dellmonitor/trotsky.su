@@ -9,3 +9,10 @@ theme = 'tale'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "Картотека"
+    title = "Картотека"
+    url = "/archives.html"
+    weight = 1
