@@ -4,6 +4,7 @@ defaultContentLanguage = 'ru'
 title = 'Место'
 theme = 'tale'
 [Params]
+  since = '2022'
   [Params.Author]
     name = 'Маяк Александрийский'
 [markup]
