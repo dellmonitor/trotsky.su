@@ -1,5 +1,6 @@
 baseURL = 'https://trotsky.su/'
-languageCode = 'en-us'
+languageCode = 'ru'
+defaultContentLanguage = 'ru'
 title = 'Место'
 theme = 'tale'
 [Params]
